@@ -106,21 +106,37 @@ def choose_now_holder(
     secondary = carry_plan.get("secondary_carries", []) or []
     utility = carry_plan.get("utility_carry")
 
-    # Tank-ish items: prefer main tank if present.
+    holder_rules = template.get("holder_rules", {}) or {}
+    carry_placeholders = holder_rules.get("carry_placeholders", []) or []
+    tank_placeholders = holder_rules.get("tank_placeholders", []) or []
+    utility_placeholders = holder_rules.get("utility_placeholders", []) or []
+
+    def first_on_board(candidates: List[str]) -> Optional[str]:
+        for c in candidates:
+            if c in board_ids:
+                return c
+        return None
+
+    # Tank-ish items: prefer main tank if present, else placeholders
     if "tank" in tags:
         if tank in board_ids:
             return tank
-        # fallback: any board unit that is in template core/required (usually frontliners)
+        ph = first_on_board(tank_placeholders)
+        if ph:
+            return ph
+        # fallback: any required unit on board
         for uid in template.get("units", {}).get("required", []):
             if uid in board_ids:
                 return uid
         return board_ids[0] if board_ids else final_holder
 
-    # Utility-ish items: prefer utility carry / support
+    # Utility-ish items: prefer utility carry/support, else placeholders
     if any(t in tags for t in ["antiheal", "shred", "cc", "cleanse"]):
         if utility in board_ids:
             return utility
-        # try the template-specified final holder anyway (even if not on board)
+        ph = first_on_board(utility_placeholders)
+        if ph:
+            return ph
         for uid in secondary:
             if uid in board_ids:
                 return uid
@@ -128,12 +144,15 @@ def choose_now_holder(
             return primary
         return board_ids[0] if board_ids else final_holder
 
-    # Carry-ish items: prefer primary carry, then secondary carries.
+    # Carry-ish items: prefer primary, then secondary, then placeholders
     if primary in board_ids:
         return primary
     for uid in secondary:
         if uid in board_ids:
             return uid
+    ph = first_on_board(carry_placeholders)
+    if ph:
+        return ph
 
     return board_ids[0] if board_ids else final_holder
 
@@ -218,6 +237,94 @@ def shop_actions(template: Dict[str, Any], gs: Dict[str, Any]) -> List[Dict[str,
 
     return actions[:12]
 
+def unit_stars(gs: Dict[str, Any], champion_id: str) -> int:
+    """Return highest star level found for champion_id across board+bench, else 0."""
+    best = 0
+    for u in gs.get("board", []):
+        if u.get("champion_id") == champion_id:
+            best = max(best, int(u.get("stars", 1)))
+    for u in gs.get("bench", []):
+        if u.get("champion_id") == champion_id:
+            best = max(best, int(u.get("stars", 1)))
+    return best
+
+
+def parse_miss_token(token: str) -> Tuple[str, Optional[int]]:
+    """
+    Accepts tokens like:
+      - "ekko_3"  => ("ekko", 3)
+      - "ekko"    => ("ekko", None)
+    """
+    if "_" in token:
+        champ, maybe_num = token.rsplit("_", 1)
+        try:
+            return champ, int(maybe_num)
+        except ValueError:
+            return token, None
+    return token, None
+
+
+def eval_pivot_triggers(template: Dict[str, Any], gs: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
+    """
+    Returns (all_triggers, active_triggers_now).
+    A trigger becomes active when:
+      - by_stage condition is met (if present), AND
+      - if_stable / if_unstable / if_contested / if_uncontested match (if present), AND
+      - if_miss condition is true (if present)
+    """
+    triggers = template.get("pivot_triggers", []) or []
+    if not isinstance(triggers, list):
+        return [], []
+
+    stage_i = stage_to_int(gs.get("stage", ""))
+    obs = (gs.get("observations", {}) or {})
+    stability = obs.get("stability", "unknown")  # "stable" / "unstable" / "unknown"
+    contested = set(obs.get("contested_units", []) or [])
+
+    active: List[Dict[str, Any]] = []
+
+    for trig in triggers:
+        if not isinstance(trig, dict):
+            continue
+
+        # Stage gate
+        by_stage = trig.get("by_stage")
+        if isinstance(by_stage, str) and stage_to_int(by_stage) > stage_i:
+            continue
+
+        # Stability gates
+        if trig.get("if_stable") is True and stability != "stable":
+            continue
+        if trig.get("if_unstable") is True and stability == "stable":
+            continue
+
+        # Contested gates (defaults to primary carry if not specified)
+        if trig.get("if_contested") is True:
+            who = trig.get("contested_unit") or (template.get("carry_plan", {}) or {}).get("primary_carry")
+            if not who or who not in contested:
+                continue
+        if trig.get("if_uncontested") is True:
+            who = trig.get("contested_unit") or (template.get("carry_plan", {}) or {}).get("primary_carry")
+            if who and who in contested:
+                continue
+
+        # Miss gate (e.g. "ekko_3" means we do NOT have Ekko 3*)
+        if_miss = trig.get("if_miss")
+        if isinstance(if_miss, str):
+            champ, stars = parse_miss_token(if_miss)
+            have_stars = unit_stars(gs, champ)
+            if stars is None:
+                # "miss ekko" means you don't even have it
+                if have_stars > 0:
+                    continue
+            else:
+                if have_stars >= stars:
+                    continue
+
+        # If we got here, it’s active
+        active.append(trig)
+
+    return triggers, active
 
 def pivot_warnings(template: Dict[str, Any], gs: Dict[str, Any]) -> List[str]:
     stage_i = stage_to_int(gs.get("stage", ""))
@@ -314,9 +421,13 @@ def main() -> None:
 
     cards = []
     tiers = ["primary", "backup", "greedy"]
+
     for idx, (s, t, breakdown) in enumerate(scored[:3]):
         tier = tiers[idx] if idx < len(tiers) else "option"
         craft_now = breakdown["craftable_now"]
+
+        all_trigs, active_trigs = eval_pivot_triggers(t, gs)
+
         cards.append({
             "tier": tier,
             "template_id": t["id"],
@@ -327,6 +438,10 @@ def main() -> None:
             "item_actions": item_actions(pack, t, gs, craft_now),
             "level_plan_hint": next((p for p in t.get("level_plan", []) if p.get("stage") == gs.get("stage")), None),
             "pivot_warnings": pivot_warnings(t, gs),
+
+            "pivot_triggers": all_trigs,
+            "active_pivot_triggers": active_trigs,
+
             "reasons": breakdown
         })
 
@@ -341,6 +456,7 @@ def main() -> None:
     }
 
     print(json.dumps(output, indent=2))
+
 
 if __name__ == "__main__":
     main()
