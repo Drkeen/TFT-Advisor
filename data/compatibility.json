@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "notes": "Rules-first holder + utility gating.",
+  "utility_hard_gates": {
+    "antiheal": { "required_champion_tags": ["antiheal_source"] },
+    "shred": { "required_champion_tags": ["shred_source"] },
+    "cleanse": { "required_champion_tags": ["cleanse_source"] },
+    "cc": { "required_champion_tags": ["cc_source"] }
+  },
+  "item_tag_to_preferred_champion_tags": {
+    "mana": ["mana", "AP"],
+    "damage": ["AP", "AD", "crit"],
+    "tank": ["main_tank", "frontline_only"],
+    "attack_speed": ["AS"]
+  },
+  "transfer_rules": {
+    "render_as_two_step": true,
+    "temporary_triggers": ["stage_4-1", "hit_level_8"],
+    "permanent_if_final_board_unit": true
+  }
+}

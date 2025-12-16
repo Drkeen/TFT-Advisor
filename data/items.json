@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "items": [
+    {
+      "id": "tear",
+      "name": "Tear",
+      "kind": "component",
+      "components": [],
+      "effect_tags": ["mana"],
+      "intended_role": "carry",
+      "unique": false
+    },
+    {
+      "id": "rod",
+      "name": "Rod",
+      "kind": "component",
+      "components": [],
+      "effect_tags": ["damage"],
+      "intended_role": "carry",
+      "unique": false
+    },
+    {
+      "id": "mana_burst_item",
+      "name": "Mana Burst Item",
+      "kind": "completed",
+      "components": ["tear", "rod"],
+      "effect_tags": ["mana", "damage"],
+      "intended_role": "carry",
+      "recommended_scaling": ["AP", "mana"],
+      "bad_for_scaling": ["AD"],
+      "unique": false
+    },
+    {
+      "id": "antiheal_artifact",
+      "name": "Antiheal Artifact",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": ["antiheal", "artifact"],
+      "intended_role": "support",
+      "grants": { "utilities": ["antiheal"] },
+      "unique": true
+    }
+  ]
+}
