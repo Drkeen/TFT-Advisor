@@ -1,0 +1,2252 @@
+{
+  "version": "13.24.1",
+  "items": [
+    {
+      "id": "b_f_sword",
+      "name": "B.F. Sword",
+      "kind": "component",
+      "components": [],
+      "effect_tags": [
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "bloodthirster",
+      "name": "Bloodthirster",
+      "kind": "completed",
+      "components": [
+        "B.F. Sword",
+        "Negatron Cloak"
+      ],
+      "effect_tags": [
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "bramble_vest",
+      "name": "Bramble Vest",
+      "kind": "completed",
+      "components": [
+        "Chain Vest",
+        "Chain Vest"
+      ],
+      "effect_tags": [
+        "tank"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "chain_vest",
+      "name": "Chain Vest",
+      "kind": "component",
+      "components": [],
+      "effect_tags": [
+        "tank"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "sparring_gloves",
+      "name": "Sparring Gloves",
+      "kind": "component",
+      "components": [],
+      "effect_tags": [
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "deathblade",
+      "name": "Deathblade",
+      "kind": "completed",
+      "components": [
+        "B.F. Sword",
+        "B.F. Sword"
+      ],
+      "effect_tags": [
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "dragons_claw",
+      "name": "Dragon's Claw",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "tank"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "tacticians_crown",
+      "name": "Tactician's Crown",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "tank"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": true
+    },
+    {
+      "id": "thiefs_gloves",
+      "name": "Thief's Gloves",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "shroud_of_stillness",
+      "name": "Shroud of Stillness",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "cc"
+      ],
+      "intended_role": "support",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [
+          "cc"
+        ],
+        "cc": true,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "protectors_vow",
+      "name": "Protector's Vow",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "tank"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "giants_belt",
+      "name": "Giant's Belt",
+      "kind": "component",
+      "components": [],
+      "effect_tags": [
+        "tank"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "giant_slayer",
+      "name": "Giant Slayer",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "edge_of_night",
+      "name": "Edge of Night",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "cleanse"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [
+          "cleanse"
+        ],
+        "cc": false,
+        "cleanse": true
+      },
+      "unique": false
+    },
+    {
+      "id": "guinsoos_rageblade",
+      "name": "Guinsoo's Rageblade",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "attack_speed"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "hand_of_justice",
+      "name": "Hand Of Justice",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "hextech_gunblade",
+      "name": "Hextech Gunblade",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "chalice_of_power",
+      "name": "Chalice of Power",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "mana"
+      ],
+      "intended_role": "support",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "infinity_edge",
+      "name": "Infinity Edge",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "ionic_spark",
+      "name": "Ionic Spark",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "shred"
+      ],
+      "intended_role": "support",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [
+          "shred"
+        ],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "jeweled_gauntlet",
+      "name": "Jeweled Gauntlet",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "last_whisper",
+      "name": "Last Whisper",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "shred"
+      ],
+      "intended_role": "support",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [
+          "shred"
+        ],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "locket_of_the_iron_solari",
+      "name": "Locket of the Iron Solari",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "tank"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "archangels_staff",
+      "name": "Archangel's Staff",
+      "kind": "completed",
+      "components": [
+        "Tear of the Goddess",
+        "Needlessly Large Rod"
+      ],
+      "effect_tags": [
+        "mana"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "spatula",
+      "name": "Spatula",
+      "kind": "component",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "quicksilver",
+      "name": "Quicksilver",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "cleanse"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [
+          "cleanse"
+        ],
+        "cc": false,
+        "cleanse": true
+      },
+      "unique": false
+    },
+    {
+      "id": "morellonomicon",
+      "name": "Morellonomicon",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "antiheal"
+      ],
+      "intended_role": "support",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [
+          "antiheal"
+        ],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "needlessly_large_rod",
+      "name": "Needlessly Large Rod",
+      "kind": "component",
+      "components": [],
+      "effect_tags": [
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "negatron_cloak",
+      "name": "Negatron Cloak",
+      "kind": "component",
+      "components": [],
+      "effect_tags": [
+        "tank"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "guardbreaker",
+      "name": "Guardbreaker",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "rabadons_deathcap",
+      "name": "Rabadon's Deathcap",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "red_buff",
+      "name": "Red Buff",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "antiheal"
+      ],
+      "intended_role": "support",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [
+          "antiheal"
+        ],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "recurve_bow",
+      "name": "Recurve Bow",
+      "kind": "component",
+      "components": [],
+      "effect_tags": [
+        "attack_speed"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "sunfire_cape",
+      "name": "Sunfire Cape",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "antiheal"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [
+          "antiheal"
+        ],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "redemption",
+      "name": "Redemption",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "tank"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "runaans_hurricane",
+      "name": "Runaan's Hurricane",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "spear_of_shojin",
+      "name": "Spear of Shojin",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "mana"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "statikk_shiv",
+      "name": "Statikk Shiv",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "shred"
+      ],
+      "intended_role": "support",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [
+          "shred"
+        ],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "gargoyle_stoneplate",
+      "name": "Gargoyle Stoneplate",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "tank"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "tear_of_the_goddess",
+      "name": "Tear of the Goddess",
+      "kind": "component",
+      "components": [],
+      "effect_tags": [
+        "mana"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "zzrot_portal",
+      "name": "Zz'Rot Portal",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "titans_resolve",
+      "name": "Titan's Resolve",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "warmogs_armor",
+      "name": "Warmog's Armor",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "tank"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "zekes_herald",
+      "name": "Zeke's Herald",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "attack_speed"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "zephyr",
+      "name": "Zephyr",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "cc"
+      ],
+      "intended_role": "support",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [
+          "cc"
+        ],
+        "cc": true,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "anima_visage",
+      "name": "Anima Visage",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "deaths_defiance",
+      "name": "Death's Defiance",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "eternal_winter",
+      "name": "Eternal Winter",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "gold_collector",
+      "name": "Gold Collector",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "infinity_force",
+      "name": "Infinity Force",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "manazane",
+      "name": "Manazane",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "obsidian_cleaver",
+      "name": "Obsidian Cleaver",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "randuins_omen",
+      "name": "Randuin's Omen",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "zhonyas_paradox",
+      "name": "Zhonya's Paradox",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "willbreaker",
+      "name": "Willbreaker",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "blessed_bloodthirster",
+      "name": "Blessed Bloodthirster",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact",
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "covalent_spark",
+      "name": "Covalent Spark",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "demonslayer",
+      "name": "Demonslayer",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "dragons_will",
+      "name": "Dragon's Will",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "dvarapala_stoneplate",
+      "name": "Dvarapala Stoneplate",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact",
+        "tank"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "eternal_whisper",
+      "name": "Eternal Whisper",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "fist_of_fairness",
+      "name": "Fist of Fairness",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "bulwarks_oath",
+      "name": "Bulwark's Oath",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "glamorous_gauntlet",
+      "name": "Glamorous Gauntlet",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "brink_of_dawn",
+      "name": "Brink of Dawn",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "guinsoos_reckoning",
+      "name": "Guinsoo's Reckoning",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact",
+        "attack_speed"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "hextech_lifeblade",
+      "name": "Hextech Lifeblade",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "luminous_deathblade",
+      "name": "Luminous Deathblade",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact",
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "more_more_ellonomicon",
+      "name": "More More-ellonomicon",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "quickestsilver",
+      "name": "Quickestsilver",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "rabadons_ascended_deathcap",
+      "name": "Rabadon's Ascended Deathcap",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact",
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "absolution",
+      "name": "Absolution",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "crest_of_cinders",
+      "name": "Crest of Cinders",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "rascals_gloves",
+      "name": "Rascal's Gloves",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "rosethorn_vest",
+      "name": "Rosethorn Vest",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact",
+        "tank"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "runaans_tempest",
+      "name": "Runaan's Tempest",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact",
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "spear_of_hirana",
+      "name": "Spear of Hirana",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "statikks_favor",
+      "name": "Statikk's Favor",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact",
+        "shred"
+      ],
+      "intended_role": "support",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [
+          "shred"
+        ],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "sunlight_cape",
+      "name": "Sunlight Cape",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "titans_vow",
+      "name": "Titan's Vow",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact",
+        "tank"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "urf_angels_staff",
+      "name": "Urf-Angel's Staff",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "warmogs_pride",
+      "name": "Warmog's Pride",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact",
+        "tank"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "zenith_edge",
+      "name": "Zenith Edge",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "zzrot_portal",
+      "name": "Zz'Rot Portal",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "moguls_mail",
+      "name": "Mogul's Mail",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "needlessly_big_gem",
+      "name": "Needlessly Big Gem",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "goldmancers_staff",
+      "name": "Goldmancer's Staff",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "hullcrusher",
+      "name": "Hullcrusher",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "tricksters_glass",
+      "name": "Trickster's Glass",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "deathfire_grasp",
+      "name": "Deathfire Grasp",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "snipers_focus",
+      "name": "Sniper's Focus",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "evenshroud",
+      "name": "Evenshroud",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "cc",
+        "shred"
+      ],
+      "intended_role": "support",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [
+          "cc",
+          "shred"
+        ],
+        "cc": true,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "equinox",
+      "name": "Equinox",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "crownguard",
+      "name": "Crownguard",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "tank"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "royal_crownshield",
+      "name": "Royal Crownshield",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact",
+        "tank"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "goldmancers_staff",
+      "name": "Goldmancer's Staff",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "steadfast_heart",
+      "name": "Steadfast Heart",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "tank"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "needlessly_big_gem",
+      "name": "Needlessly Big Gem",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "legacy_of_the_colossus",
+      "name": "Legacy of the Colossus",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "moguls_mail",
+      "name": "Mogul's Mail",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "steraks_gage",
+      "name": "Sterak's Gage",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "steraks_megashield",
+      "name": "Sterak's Megashield",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "blue_buff",
+      "name": "Blue Buff",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "mana"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "blue_blessing",
+      "name": "Blue Blessing",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "adaptive_helm",
+      "name": "Adaptive Helm",
+      "kind": "completed",
+      "components": [
+        "Tear of the Goddess",
+        "Negatron Cloak"
+      ],
+      "effect_tags": [
+        "mana"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "jaksho_the_protean",
+      "name": "Jak'sho the Protean",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "nashors_tooth",
+      "name": "Nashor's Tooth",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "damage"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "the_barons_gift",
+      "name": "The Baron's Gift",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "aegis_of_the_legion",
+      "name": "Aegis of the Legion",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "tank"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "virtue_of_the_martyr",
+      "name": "Virtue of the Martyr",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "tank"
+      ],
+      "intended_role": "tank",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "banshees_veil",
+      "name": "Banshee's Veil",
+      "kind": "completed",
+      "components": [
+        "todo_component_1",
+        "todo_component_2"
+      ],
+      "effect_tags": [
+        "cleanse"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [
+          "cleanse"
+        ],
+        "cc": false,
+        "cleanse": true
+      },
+      "unique": false
+    },
+    {
+      "id": "blacksmiths_gloves",
+      "name": "Blacksmith's Gloves",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "gamblers_blade",
+      "name": "Gambler's Blade",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "diamond_hands",
+      "name": "Diamond Hands",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    },
+    {
+      "id": "gamblers_blade",
+      "name": "Gambler's Blade",
+      "kind": "artifact",
+      "components": [],
+      "effect_tags": [
+        "artifact"
+      ],
+      "intended_role": "carry",
+      "recommended_scaling": [],
+      "bad_for_scaling": [],
+      "grants": {
+        "utilities": [],
+        "cc": false,
+        "cleanse": false
+      },
+      "unique": false
+    }
+  ]
+}

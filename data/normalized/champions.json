@@ -1,0 +1,1145 @@
+{
+  "version": "13.24.1",
+  "champions": [
+    {
+      "id": "ahri",
+      "name": "Ahri",
+      "cost": 4,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "akali",
+      "name": "Akali",
+      "cost": 4,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "amumu",
+      "name": "Amumu",
+      "cost": 3,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "annie",
+      "name": "Annie",
+      "cost": 1,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "aphelios",
+      "name": "Aphelios",
+      "cost": 2,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "bard",
+      "name": "Bard",
+      "cost": 2,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "blitzcrank",
+      "name": "Blitzcrank",
+      "cost": 4,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "caitlyn",
+      "name": "Caitlyn",
+      "cost": 4,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "corki",
+      "name": "Corki",
+      "cost": 1,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "ekko",
+      "name": "Ekko",
+      "cost": 3,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "evelynn",
+      "name": "Evelynn",
+      "cost": 1,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "ezreal",
+      "name": "Ezreal",
+      "cost": 4,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "gnar",
+      "name": "Gnar",
+      "cost": 2,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "gragas",
+      "name": "Gragas",
+      "cost": 2,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "illaoi",
+      "name": "Illaoi",
+      "cost": 5,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "jax",
+      "name": "Jax",
+      "cost": 2,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "jhin",
+      "name": "Jhin",
+      "cost": 5,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "jinx",
+      "name": "Jinx",
+      "cost": 1,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "karthus",
+      "name": "Karthus",
+      "cost": 4,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "katarina",
+      "name": "Katarina",
+      "cost": 2,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "kayle",
+      "name": "Kayle",
+      "cost": 2,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "kayn",
+      "name": "Kayn",
+      "cost": 5,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "kennen",
+      "name": "Kennen",
+      "cost": 1,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "lillia",
+      "name": "Lillia",
+      "cost": 1,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "lucian",
+      "name": "Lucian",
+      "cost": 5,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "lulu",
+      "name": "Lulu",
+      "cost": 3,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "lux",
+      "name": "Lux",
+      "cost": 3,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "mordekaiser",
+      "name": "Mordekaiser",
+      "cost": 3,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "nami",
+      "name": "Nami",
+      "cost": 1,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "neeko",
+      "name": "Neeko",
+      "cost": 3,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "pantheon",
+      "name": "Pantheon",
+      "cost": 2,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "poppy",
+      "name": "Poppy",
+      "cost": 4,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "qiyana",
+      "name": "Qiyana",
+      "cost": 5,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "riven",
+      "name": "Riven",
+      "cost": 3,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "samira",
+      "name": "Samira",
+      "cost": 3,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "senna",
+      "name": "Senna",
+      "cost": 2,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "seraphine",
+      "name": "Seraphine",
+      "cost": 2,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "sett",
+      "name": "Sett",
+      "cost": 3,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "sona",
+      "name": "Sona",
+      "cost": 5,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "taric",
+      "name": "Taric",
+      "cost": 1,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "thresh",
+      "name": "Thresh",
+      "cost": 4,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "twitch",
+      "name": "Twitch",
+      "cost": 2,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "urgot",
+      "name": "Urgot",
+      "cost": 3,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "vex",
+      "name": "Vex",
+      "cost": 3,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "vi",
+      "name": "Vi",
+      "cost": 1,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "viego",
+      "name": "Viego",
+      "cost": 4,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "yasuo",
+      "name": "Yasuo",
+      "cost": 1,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "yone",
+      "name": "Yone",
+      "cost": 3,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "yorick",
+      "name": "Yorick",
+      "cost": 5,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "zac",
+      "name": "Zac",
+      "cost": 4,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "zed",
+      "name": "Zed",
+      "cost": 4,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "ziggs",
+      "name": "Ziggs",
+      "cost": 5,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "miss_fortune",
+      "name": "Miss Fortune",
+      "cost": 3,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "olaf",
+      "name": "Olaf",
+      "cost": 1,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "tahm_kench",
+      "name": "Tahm Kench",
+      "cost": 1,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "twisted_fate",
+      "name": "Twisted Fate",
+      "cost": 4,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "k_sante",
+      "name": "K'Sante",
+      "cost": 1,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "kaisa",
+      "name": "Kai'Sa",
+      "cost": 2,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "akali_truedamage",
+      "name": "Akali",
+      "cost": 4,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    },
+    {
+      "id": "garen",
+      "name": "Garen",
+      "cost": 2,
+      "traits": [],
+      "tags": {
+        "roles": [],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      },
+      "ability_hints": {}
+    }
+  ]
+}
