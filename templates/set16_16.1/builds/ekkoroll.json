@@ -47,7 +47,7 @@
       "items": ["thiefs_gloves"],
       "components": ["sparring_gloves", "sparring_gloves"]
     },
-    "cho_gath": {
+    "chogath": {
       "items": ["spiritvisage", "warmogs_armor", "zaun_emblem"],
       "components": ["tear_of_the_goddess", "giants_belt", "giants_belt", "giants_belt", "spatula", "sparring_gloves"]
     },
@@ -62,7 +62,7 @@
 
   "level_plan": [
     { "stage": "2-1", "level": 4, "rule": "do_not_buy_xp_if_you_can_win_or_econ" },
-    { "stage": "3-2", "level": 6, "rule": "slowroll_above_50_for_ekko_3_cho_gath_3_vi_3" },
+    { "stage": "3-2", "level": 6, "rule": "slowroll_above_50_for_ekko_3_chogath_3_vi_3" },
     { "stage": "4-7", "level": 7, "rule": "push_after_hits" },
     { "stage": "5-7", "level": 8, "rule": "cap_board" },
     { "stage": "6-5", "level": 9, "rule": "cap_plus_swap" }
