@@ -37,6 +37,41 @@
     "tier_3": ["retribution", "goldenticket", "tacticianskitchen_iii"]
   },
 
+  "pivot_triggers": [
+  {
+    "by_stage": "3-5",
+    "if_unstable": true,
+    "then": "stop_greed: slam_best_items_and_roll_a_bit_to_stabilise"
+  },
+  {
+    "by_stage": "4-1",
+    "if_miss": "ekko_2",
+    "then": "pivot_to_backup_void: if_you_cant_field_ekko_2_by_4-1, play_best_board_and_stop_reroll_plan"
+  },
+  {
+    "by_stage": "4-1",
+    "if_contested": true,
+    "contested_unit": "ekko",
+    "then": "soft_pivot_warning: if_contested_and_copies_dry, consider_backup_void_or_greedy_fast8"
+  },
+  {
+    "by_stage": "4-2",
+    "if_miss": "ekko_3",
+    "then": "hard_pivot: if_ekko_not_3star_by_4-2, push_levels_and_pivot_to_backup_void_or_greedy_fast8"
+  },
+  {
+    "by_stage": "4-2",
+    "if_miss": "chogath_3",
+    "then": "pivot_or_stop_slowroll: if_chogath_3_not_close, push_7_and_upgrade_board_instead_of_rerolling"
+  },
+  {
+    "by_stage": "4-5",
+    "if_stable": true,
+    "then": "convert_lead: stop_rerolling_push_8_and_cap_board"
+  }
+],
+
+
   "items": {
     "ekko": {
       "items": ["titans_resolve", "hand_of_justice", "bloodthirster"],
@@ -69,6 +104,7 @@
   "level_plan": [
     { "stage": "2-1", "level": 4, "rule": "do_not_buy_xp_if_you_can_win_or_econ" },
     { "stage": "3-2", "level": 6, "rule": "slowroll_above_50_for_ekko_3_chogath_3_vi_3" },
+    { "stage": "4-1", "level": 7, "rule": "if_close_to_ekko3_keep_slowrolling_else_push_7_then_8" },
     { "stage": "4-7", "level": 7, "rule": "push_after_hits" },
     { "stage": "5-7", "level": 8, "rule": "cap_board" },
     { "stage": "6-5", "level": 9, "rule": "cap_plus_swap" }
