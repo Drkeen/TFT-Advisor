@@ -1,7 +1,0 @@
-{
-  "version": "1.0",
-  "traits": [
-    { "id": "arcanist", "name": "Arcanist", "breakpoints": [2, 4, 6] },
-    { "id": "vanguard", "name": "Vanguard", "breakpoints": [2, 4, 6] }
-  ]
-}
