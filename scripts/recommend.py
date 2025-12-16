@@ -263,6 +263,43 @@ def parse_miss_token(token: str) -> Tuple[str, Optional[int]]:
             return token, None
     return token, None
 
+def normalize_then(then_val: Any) -> Dict[str, Any]:
+    """
+    Normalize legacy string `then` into a structured dict.
+    New templates should provide dicts already.
+    """
+    if isinstance(then_val, dict):
+        return then_val
+
+    if isinstance(then_val, str):
+        # Very light parsing: "tag: message"
+        if ":" in then_val:
+            tag, msg = then_val.split(":", 1)
+            tag = tag.strip()
+            msg = msg.strip()
+
+            # Map a few common tags to structured actions
+            if tag in {"pivot_to_backup_void"}:
+                return {"action": "switch_template", "target": "backup_void", "why": msg or "Pivot to backup."}
+
+            if tag in {"hard_pivot", "soft_pivot_warning"}:
+                return {"action": "consider_templates", "targets": ["backup_void", "greedy_fast8"], "why": msg or "Consider pivot."}
+
+            if tag in {"convert_lead"}:
+                return {"action": "set_policy", "policy": "push_levels", "why": msg or "Convert lead by leveling."}
+
+            if tag in {"stop_greed"}:
+                return {"action": "set_policy", "policy": "stabilize_now", "why": msg or "Stabilize now."}
+
+            # Default: keep tag + message as a note
+            return {"action": "note", "tag": tag, "message": msg}
+
+        # No tag
+        return {"action": "note", "message": then_val}
+
+    # Fallback for weird types
+    return {"action": "note", "message": str(then_val)}
+
 
 def eval_pivot_triggers(template: Dict[str, Any], gs: Dict[str, Any]) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
     """
@@ -272,9 +309,15 @@ def eval_pivot_triggers(template: Dict[str, Any], gs: Dict[str, Any]) -> Tuple[L
       - if_stable / if_unstable / if_contested / if_uncontested match (if present), AND
       - if_miss condition is true (if present)
     """
-    triggers = template.get("pivot_triggers", []) or []
-    if not isinstance(triggers, list):
-        return [], []
+    raw = template.get("pivot_triggers", []) or []
+
+    # Normalize all triggers so `then` is always a dict
+    triggers: List[Dict[str, Any]] = []
+    for trig in raw:
+        if isinstance(trig, dict):
+            normalized = dict(trig)
+            normalized["then"] = normalize_then(trig.get("then"))
+            triggers.append(normalized)
 
     stage_i = stage_to_int(gs.get("stage", ""))
     obs = (gs.get("observations", {}) or {})
@@ -284,9 +327,6 @@ def eval_pivot_triggers(template: Dict[str, Any], gs: Dict[str, Any]) -> Tuple[L
     active: List[Dict[str, Any]] = []
 
     for trig in triggers:
-        if not isinstance(trig, dict):
-            continue
-
         # Stage gate
         by_stage = trig.get("by_stage")
         if isinstance(by_stage, str) and stage_to_int(by_stage) > stage_i:
@@ -314,17 +354,17 @@ def eval_pivot_triggers(template: Dict[str, Any], gs: Dict[str, Any]) -> Tuple[L
             champ, stars = parse_miss_token(if_miss)
             have_stars = unit_stars(gs, champ)
             if stars is None:
-                # "miss ekko" means you don't even have it
                 if have_stars > 0:
                     continue
             else:
                 if have_stars >= stars:
                     continue
 
-        # If we got here, it’s active
-        active.append(trig)
+        # Active trigger (already normalized)
+        active.append(dict(trig))
 
     return triggers, active
+
 
 def pivot_warnings(template: Dict[str, Any], gs: Dict[str, Any]) -> List[str]:
     stage_i = stage_to_int(gs.get("stage", ""))

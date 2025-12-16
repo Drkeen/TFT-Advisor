@@ -42,6 +42,6 @@
   ],
 
   "pivot_triggers": [
-    { "by_stage": "4-1", "if_miss": "ekko_3", "then": "play_void_shell_and_push_levels" }
+    { "by_stage": "4-1", "if_miss": "ekko_3", "then": { "action": "switch_template", "target": "backup_void", "why": "Ekko 3* missed — move into Void line and push levels." } }
   ]
 }

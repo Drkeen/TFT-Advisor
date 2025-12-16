@@ -37,37 +37,37 @@
     "tier_3": ["retribution", "goldenticket", "tacticianskitchen_iii"]
   },
 
-  "pivot_triggers": [
+"pivot_triggers": [
   {
     "by_stage": "3-5",
     "if_unstable": true,
-    "then": "stop_greed: slam_best_items_and_roll_a_bit_to_stabilise"
+    "then": { "action": "set_policy", "policy": "stabilize_now", "why": "Stop greed: slam best items and roll a bit to stabilise." }
   },
   {
     "by_stage": "4-1",
     "if_miss": "ekko_2",
-    "then": "pivot_to_backup_void: if_you_cant_field_ekko_2_by_4-1, play_best_board_and_stop_reroll_plan"
+    "then": { "action": "switch_template", "target": "backup_void", "why": "No Ekko 2* by 4-1—reroll plan is likely dead." }
   },
   {
     "by_stage": "4-1",
     "if_contested": true,
     "contested_unit": "ekko",
-    "then": "soft_pivot_warning: if_contested_and_copies_dry, consider_backup_void_or_greedy_fast8"
+    "then": { "action": "consider_templates", "targets": ["backup_void", "greedy_fast8"], "why": "Ekko contested—be ready to pivot if copies are dry." }
   },
   {
     "by_stage": "4-2",
     "if_miss": "ekko_3",
-    "then": "hard_pivot: if_ekko_not_3star_by_4-2, push_levels_and_pivot_to_backup_void_or_greedy_fast8"
+    "then": { "action": "consider_templates", "targets": ["backup_void", "greedy_fast8"], "why": "Missed Ekko 3* by 4-2—push levels and cap board." }
   },
   {
     "by_stage": "4-2",
     "if_miss": "chogath_3",
-    "then": "pivot_or_stop_slowroll: if_chogath_3_not_close, push_7_and_upgrade_board_instead_of_rerolling"
+    "then": { "action": "set_policy", "policy": "push_7", "why": "If Cho 3* isn’t close, stop slowroll and upgrade board at 7." }
   },
   {
     "by_stage": "4-5",
     "if_stable": true,
-    "then": "convert_lead: stop_rerolling_push_8_and_cap_board"
+    "then": { "action": "set_policy", "policy": "push_8", "why": "Convert lead: stop rerolling, push 8, cap board." }
   }
 ],
 

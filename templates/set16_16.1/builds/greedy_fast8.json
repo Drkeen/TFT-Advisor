@@ -41,6 +41,6 @@
   ],
 
   "pivot_triggers": [
-    { "by_stage": "4-5", "if_stable": true, "then": "push_8" }
+    { "by_stage": "4-5", "if_stable": true, "then": { "action": "set_policy", "policy": "push_8", "why": "Stable at 4-5 — convert econ into level 8 and roll to cap." } }
   ]
 }
