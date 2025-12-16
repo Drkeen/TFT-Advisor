@@ -1,0 +1,47 @@
+{
+  "id": "backup_void",
+  "name": "Backup - Void",
+  "set_patch": "set16_16.1",
+  "style_tags": ["tempo", "flex"],
+  "difficulty": "medium",
+
+  "core_traits": [
+    { "trait": "void", "target": 4 }
+  ],
+
+"holder_rules": {
+    "carry_placeholders": ["malzahar", "seraphine", "ekko"],
+    "tank_placeholders": ["chogath", "blitzcrank", "vi", "swain"],
+    "utility_placeholders": ["seraphine", "singed"]
+},
+
+
+  "carry_plan": {
+    "primary_carry": "malzahar",
+    "main_tank": "chogath",
+    "secondary_carries": ["seraphine"],
+    "utility_carry": "seraphine"
+  },
+
+  "units": {
+    "required": ["malzahar", "chogath"],
+    "core": ["malzahar", "chogath", "seraphine", "vi", "blitzcrank", "singed"],
+    "mid_game_adds": [],
+    "late_swap": {}
+  },
+
+  "items": {
+    "malzahar": { "items": ["guinsoos_rageblade", "nashor_s_tooth", "voidstaff"] },
+    "chogath": { "items": ["warmogs_armor", "spiritvisage"] },
+    "seraphine": { "items": ["morellonomicon"] }
+  },
+
+  "level_plan": [
+    { "stage": "3-2", "level": 6, "rule": "stabilise_then_push_7" },
+    { "stage": "4-1", "level": 7, "rule": "push_if_stable" }
+  ],
+
+  "pivot_triggers": [
+    { "by_stage": "4-1", "if_miss": "ekko_3", "then": "play_void_shell_and_push_levels" }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "greedy_fast8",
+  "name": "Greedy - Fast 8",
+  "set_patch": "set16_16.1",
+  "style_tags": ["fast_8", "highroll"],
+  "difficulty": "hard",
+
+"core_traits": [],
+
+"holder_rules": {
+  "carry_placeholders": ["seraphine", "ekko", "singed"],
+  "tank_placeholders": ["chogath", "blitzcrank", "vi", "swain", "singed"],
+  "utility_placeholders": ["seraphine", "singed"]
+},
+
+
+  "carry_plan": {
+    "primary_carry": "ziggs",
+    "main_tank": "dr_mundo",
+    "secondary_carries": ["seraphine"],
+    "utility_carry": "seraphine"
+  },
+
+  "units": {
+    "required": ["dr_mundo"],
+    "core": ["dr_mundo", "seraphine", "vi", "blitzcrank", "ziggs"],
+    "mid_game_adds": ["swain"],
+    "late_swap": {}
+  },
+
+  "items": {
+    "ziggs": { "items": ["archangels_staff", "jeweled_gauntlet", "voidstaff"] },
+    "dr_mundo": { "items": ["warmogs_armor", "spiritvisage"] },
+    "seraphine": { "items": ["morellonomicon"] }
+  },
+
+  "level_plan": [
+    { "stage": "3-2", "level": 6, "rule": "econ_up" },
+    { "stage": "4-1", "level": 7, "rule": "push_7_no_roll_if_stable" },
+    { "stage": "4-5", "level": 8, "rule": "push_8_and_roll_to_stabilise" }
+  ],
+
+  "pivot_triggers": [
+    { "by_stage": "4-5", "if_stable": true, "then": "push_8" }
+  ]
+}

@@ -10,6 +10,12 @@
     { "trait": "zaun", "target": 4 },
     { "trait": "juggernaut", "target": 2 }
   ],
+    
+  "holder_rules": {
+    "carry_placeholders": ["ekko", "seraphine", "singed"],
+    "tank_placeholders": ["chogath", "blitzcrank", "vi", "swain", "dr_mundo", "singed"],
+    "utility_placeholders": ["singed", "seraphine", "blitzcrank"]
+    },
 
   "carry_plan": {
     "primary_carry": "ekko",

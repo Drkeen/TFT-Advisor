@@ -280,50 +280,67 @@ def score_template(pack: Dict[str, Any], template: Dict[str, Any], gs: Dict[str,
     }
     return float(total), breakdown
 
+def load_templates(path: Path) -> List[Dict[str, Any]]:
+    if path.is_file():
+        return [read_json(path)]
+    if path.is_dir():
+        templates = []
+        for p in sorted(path.glob("*.json")):
+            templates.append(read_json(p))
+        return templates
+    raise FileNotFoundError(str(path))
 
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--pack", required=True, help="e.g. data/set16_16.1")
-    ap.add_argument("--template", required=True, help="e.g. templates/set16_16.1/builds/ekkoroll.json")
+    ap.add_argument("--templates", required=True, help="Template file OR folder, e.g. templates/set16_16.1/builds")
     ap.add_argument("--gamestate", required=True, help="e.g. examples/gamestate_samples/ekkoroll_3-2_level6.json")
     args = ap.parse_args()
 
     pack_dir = Path(args.pack)
-    template_path = Path(args.template)
+    templates_path = Path(args.templates)
     gs_path = Path(args.gamestate)
 
     pack = load_pack(pack_dir)
-    template = read_json(template_path)
     gs = read_json(gs_path)
+    templates = load_templates(templates_path)
 
-    score, breakdown = score_template(pack, template, gs)
-    craft_now = breakdown["craftable_now"]
+    scored = []
+    for t in templates:
+        s, breakdown = score_template(pack, t, gs)
+        scored.append((s, t, breakdown))
 
-    primary_card = {
-        "tier": "primary",
-        "template_id": template["id"],
-        "template_name": template["name"],
-        "set_patch": gs.get("set_patch"),
-        "score": score,
-        "shop_actions": shop_actions(template, gs),
-        "item_actions": item_actions(pack, template, gs, craft_now),
-        "level_plan_hint": next((p for p in template.get("level_plan", []) if p.get("stage") == gs.get("stage")), None),
-        "pivot_warnings": pivot_warnings(template, gs),
-        "reasons": breakdown
-    }
+    scored.sort(key=lambda x: x[0], reverse=True)
+
+    cards = []
+    tiers = ["primary", "backup", "greedy"]
+    for idx, (s, t, breakdown) in enumerate(scored[:3]):
+        tier = tiers[idx] if idx < len(tiers) else "option"
+        craft_now = breakdown["craftable_now"]
+        cards.append({
+            "tier": tier,
+            "template_id": t["id"],
+            "template_name": t["name"],
+            "set_patch": gs.get("set_patch"),
+            "score": s,
+            "shop_actions": shop_actions(t, gs),
+            "item_actions": item_actions(pack, t, gs, craft_now),
+            "level_plan_hint": next((p for p in t.get("level_plan", []) if p.get("stage") == gs.get("stage")), None),
+            "pivot_warnings": pivot_warnings(t, gs),
+            "reasons": breakdown
+        })
 
     output = {
-        "cards": [primary_card],
+        "cards": cards,
         "meta": {
             "generated_from": {
-                "template": str(template_path).replace("\\", "/"),
+                "templates": str(templates_path).replace("\\", "/"),
                 "gamestate": str(gs_path).replace("\\", "/")
             }
         }
     }
 
     print(json.dumps(output, indent=2))
-
 
 if __name__ == "__main__":
     main()
