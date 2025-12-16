@@ -1,0 +1,32 @@
+{
+  "set_patch": "set16_16.1",
+  "stage": "3-2",
+  "level": 6,
+  "gold": 52,
+  "hp": 78,
+  "board": [
+    { "champion_id": "singed", "stars": 2, "items": [] },
+    { "champion_id": "chogath", "stars": 2, "items": [] },
+    { "champion_id": "ekko", "stars": 2, "items": [] },
+    { "champion_id": "vi", "stars": 2, "items": [] },
+    { "champion_id": "seraphine", "stars": 1, "items": [] },
+    { "champion_id": "blitzcrank", "stars": 1, "items": [] }
+  ],
+  "bench": [
+    { "champion_id": "ekko", "stars": 1 },
+    { "champion_id": "chogath", "stars": 1 },
+    { "champion_id": "vi", "stars": 1 }
+  ],
+  "inventory": [
+    "chain_vest",
+    "recurve_bow",
+    "sparring_gloves",
+    "tear_of_the_goddess",
+    "giants_belt",
+    "needlessly_large_rod"
+  ],
+  "observations": {
+    "contested_units": ["ekko"],
+    "stability": "stable"
+  }
+}

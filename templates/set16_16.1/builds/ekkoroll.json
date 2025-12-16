@@ -1,0 +1,80 @@
+{
+  "id": "ekkoroll",
+  "name": "EkkoRoll",
+  "set_patch": "set16_16.1",
+  "source": "EkkoRoll_build_guide.txt",
+  "style_tags": ["reroll", "tempo"],
+  "difficulty": "easy",
+
+  "core_traits": [
+    { "trait": "zaun", "target": 4 },
+    { "trait": "juggernaut", "target": 2 }
+  ],
+
+  "carry_plan": {
+    "primary_carry": "ekko",
+    "main_tank": "chogath",
+    "secondary_carries": ["singed"],
+    "utility_carry": "seraphine"
+  },
+
+  "units": {
+    "required": ["ekko", "vi", "chogath", "blitzcrank"],
+    "core": ["singed", "chogath", "ekko", "vi", "seraphine", "swain", "dr_mundo", "jinx", "blitzcrank"],
+    "mid_game_adds": ["dr_mundo", "malzahar"],
+    "late_swap": { "jinx": "ziggs" }
+  },
+
+  "augments": {
+    "tier_1": ["branching_out_i", "building_an_army_i", "caretakers_ally"],
+    "tier_2": ["heroic_grab_bag", "silcos_revenge", "pandorasbench2"],
+    "tier_3": ["retribution", "goldenticket", "tacticianskitchen_iii"]
+  },
+
+  "items": {
+    "ekko": {
+      "items": ["titans_resolve", "hand_of_justice", "bloodthirster"],
+      "components": [
+        "chain_vest",
+        "recurve_bow",
+        "sparring_gloves",
+        "tear_of_the_goddess",
+        "bf_sword",
+        "negatron_cloak"
+      ]
+    },
+    "vi": {
+      "items": ["thiefs_gloves"],
+      "components": ["sparring_gloves", "sparring_gloves"]
+    },
+    "cho_gath": {
+      "items": ["spiritvisage", "warmogs_armor", "zaun_emblem"],
+      "components": ["tear_of_the_goddess", "giants_belt", "giants_belt", "giants_belt", "spatula", "sparring_gloves"]
+    },
+    "singed": {
+      "items": ["morellonomicon", "voidstaff", "bloodthirster"],
+      "components": ["needlessly_large_rod", "giants_belt", "tear_of_the_goddess", "recurve_bow", "bf_sword", "negatron_cloak"]
+    },
+    "spares": {
+      "notes": "Leftover items can go onto Seraphine."
+    }
+  },
+
+  "level_plan": [
+    { "stage": "2-1", "level": 4, "rule": "do_not_buy_xp_if_you_can_win_or_econ" },
+    { "stage": "3-2", "level": 6, "rule": "slowroll_above_50_for_ekko_3_cho_gath_3_vi_3" },
+    { "stage": "4-7", "level": 7, "rule": "push_after_hits" },
+    { "stage": "5-7", "level": 8, "rule": "cap_board" },
+    { "stage": "6-5", "level": 9, "rule": "cap_plus_swap" }
+  ],
+
+  "unlock_notes": [
+    "Unlock singed by having 4 Zaun or Juggernaut units and losing 35 HP."
+  ],
+
+  "when_to_play": ["zaun_opener", "reroll_augment", "zaun_emblem"],
+  "notes": [
+    "Main carries: Ekko, Cho'Gath, singed.",
+    "Mid-game: stay level 6 and slow roll for Ekko/Cho'Gath/Vi 3-star, then push levels and add more Zaun/Juggernaut."
+  ]
+}

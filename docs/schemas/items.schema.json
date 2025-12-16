@@ -1,0 +1,76 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/tft/items.schema.json",
+  "title": "TFT Items Data",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version","items"],
+  "properties": {
+    "version": { "type": "string", "minLength": 1, "maxLength": 16 },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id","name","kind","components","effect_tags","intended_role","unique"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+          "name": { "type": "string", "minLength": 1, "maxLength": 64 },
+          "kind": { "type": "string", "enum": ["component","completed","artifact"] },
+          "components": {
+           "type": "array",
+           "items": { "type": "string", "pattern": "^[a-z0-9_]+$" }
+          },
+          "effect_tags": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "enum": ["damage","tank","mana","attack_speed","shred","antiheal","cc","cleanse","econ","artifact"]
+            },
+            "uniqueItems": true
+          },
+          "intended_role": { "type": "string", "enum": ["carry","tank","support"] },
+          "recommended_scaling": {
+            "type": "array",
+            "items": { "type": "string", "enum": ["AD","AP","AS","mana","crit"] },
+            "uniqueItems": true
+          },
+          "bad_for_scaling": {
+            "type": "array",
+            "items": { "type": "string", "enum": ["AD","AP","AS","mana","crit"] },
+            "uniqueItems": true
+          },
+          "grants": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "utilities": {
+                "type": "array",
+                "items": { "type": "string", "enum": ["antiheal","shred","cc","cleanse"] },
+                "uniqueItems": true
+              },
+              "cc": { "type": "boolean" },
+              "cleanse": { "type": "boolean" }
+            }
+          },
+          "unique": { "type": "boolean" }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "kind": { "const": "component" } } },
+            "then": { "properties": { "components": { "maxItems": 0 } } }
+          },
+          {
+            "if": { "properties": { "kind": { "const": "completed" } } },
+            "then": { "properties": { "components": { "minItems": 2, "maxItems": 2 } } }
+          },
+          {
+            "if": { "properties": { "kind": { "const": "artifact" } } },
+            "then": { "properties": { "components": { "maxItems": 0 } } }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/tft/traits.schema.json",
+  "title": "TFT Traits Data",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version","traits"],
+  "properties": {
+    "version": { "type": "string", "minLength": 1, "maxLength": 16 },
+    "traits": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id","name","breakpoints"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+          "name": { "type": "string", "minLength": 1, "maxLength": 64 },
+          "breakpoints": {
+            "type": "array",
+            "items": { "type": "integer", "minimum": 1, "maximum": 20 },
+            "uniqueItems": true
+          },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "pack_id": "set16_16_1",
+  "game": "tft",
+  "set": "set16",
+  "patch": "16.1",
+  "version": "1.0",
+  "created_utc": "2025-12-16T10:55:10Z",
+  "notes": "Normalized from Mobalytics data.json (raw kept in /raw)."
+}

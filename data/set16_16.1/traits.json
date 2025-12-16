@@ -1,0 +1,311 @@
+{
+  "version": "1.0",
+  "traits": [
+    {
+      "id": "arcanist",
+      "name": "Arcanist",
+      "breakpoints": [],
+      "notes": "class"
+    },
+    {
+      "id": "ascendant",
+      "name": "Ascendant",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "assimilator",
+      "name": "Assimilator",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "bilgewater",
+      "name": "Bilgewater",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "blacksmith",
+      "name": "Blacksmith",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "bruiser",
+      "name": "Bruiser",
+      "breakpoints": [],
+      "notes": "class"
+    },
+    {
+      "id": "caretaker",
+      "name": "Caretaker",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "chainbreaker",
+      "name": "Chainbreaker",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "chronokeeper",
+      "name": "Chronokeeper",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "dark_child",
+      "name": "Dark Child",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "darkin",
+      "name": "Darkin",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "defender",
+      "name": "Defender",
+      "breakpoints": [],
+      "notes": "class"
+    },
+    {
+      "id": "demacia",
+      "name": "Demacia",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "disruptor",
+      "name": "Disruptor",
+      "breakpoints": [],
+      "notes": "class"
+    },
+    {
+      "id": "dragonborn",
+      "name": "Dragonborn",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "emperor",
+      "name": "Emperor",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "eternal",
+      "name": "Eternal",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "freljord",
+      "name": "Freljord",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "glutton",
+      "name": "Glutton",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "gunslinger",
+      "name": "Gunslinger",
+      "breakpoints": [],
+      "notes": "class"
+    },
+    {
+      "id": "harvester",
+      "name": "Harvester",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "heroic",
+      "name": "Heroic",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "hexmech",
+      "name": "HexMech",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "huntress",
+      "name": "Huntress",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "immortal",
+      "name": "Immortal",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "invoker",
+      "name": "Invoker",
+      "breakpoints": [],
+      "notes": "class"
+    },
+    {
+      "id": "ionia",
+      "name": "Ionia",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "ixtal",
+      "name": "Ixtal",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "juggernaut",
+      "name": "Juggernaut",
+      "breakpoints": [],
+      "notes": "class"
+    },
+    {
+      "id": "longshot",
+      "name": "Longshot",
+      "breakpoints": [],
+      "notes": "class"
+    },
+    {
+      "id": "noxus",
+      "name": "Noxus",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "piltover",
+      "name": "Piltover",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "quickstriker",
+      "name": "Quickstriker",
+      "breakpoints": [],
+      "notes": "class"
+    },
+    {
+      "id": "riftscourge",
+      "name": "Riftscourge",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "rune_mage",
+      "name": "Rune Mage",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "shadow_isles",
+      "name": "Shadow Isles",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "shurima",
+      "name": "Shurima",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "slayer",
+      "name": "Slayer",
+      "breakpoints": [],
+      "notes": "class"
+    },
+    {
+      "id": "soulbound",
+      "name": "Soulbound",
+      "breakpoints": [],
+      "notes": "class"
+    },
+    {
+      "id": "star_forger",
+      "name": "Star Forger",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "targon",
+      "name": "Targon",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "teamup_ambessakindred",
+      "name": "TFT16_Teamup_AmbessaKindred",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "tft16_teamup_jarvanshyvana",
+      "name": "TFT16_Teamup_JarvanShyvana",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "tft16_teamup_lucianvayne",
+      "name": "TFT16_Teamup_LucianVayne",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "the_boss",
+      "name": "The Boss",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "vanquisher",
+      "name": "Vanquisher",
+      "breakpoints": [],
+      "notes": "class"
+    },
+    {
+      "id": "void",
+      "name": "Void",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "warden",
+      "name": "Warden",
+      "breakpoints": [],
+      "notes": "class"
+    },
+    {
+      "id": "world_ender",
+      "name": "World Ender",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "yordle",
+      "name": "Yordle",
+      "breakpoints": [],
+      "notes": "origin"
+    },
+    {
+      "id": "zaun",
+      "name": "Zaun",
+      "breakpoints": [],
+      "notes": "origin"
+    }
+  ]
+}

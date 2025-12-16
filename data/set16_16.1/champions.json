@@ -1,0 +1,2334 @@
+{
+  "version": "1.0",
+  "champions": [
+    {
+      "id": "aatrox",
+      "name": "Aatrox",
+      "cost": 5,
+      "traits": [
+        "darkin",
+        "slayer",
+        "world_ender"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "ahri",
+      "name": "Ahri",
+      "cost": 3,
+      "traits": [
+        "arcanist",
+        "ionia"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "ambessa",
+      "name": "Ambessa",
+      "cost": 4,
+      "traits": [
+        "noxus",
+        "vanquisher"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "anivia",
+      "name": "Anivia",
+      "cost": 1,
+      "traits": [
+        "freljord",
+        "invoker"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "annie",
+      "name": "Annie",
+      "cost": 5,
+      "traits": [
+        "arcanist",
+        "dark_child"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "aphelios",
+      "name": "Aphelios",
+      "cost": 2,
+      "traits": [
+        "targon"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "ashe",
+      "name": "Ashe",
+      "cost": 2,
+      "traits": [
+        "freljord",
+        "quickstriker"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "aurelionsol",
+      "name": "Aurelion Sol",
+      "cost": 7,
+      "traits": [
+        "star_forger",
+        "targon"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "azir",
+      "name": "Azir",
+      "cost": 5,
+      "traits": [
+        "disruptor",
+        "emperor",
+        "shurima"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "bard",
+      "name": "Bard ",
+      "cost": 2,
+      "traits": [
+        "caretaker"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "baronnashor",
+      "name": "Baron Nashor",
+      "cost": 7,
+      "traits": [
+        "riftscourge",
+        "void"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "belveth",
+      "name": "Bel'Veth",
+      "cost": 4,
+      "traits": [
+        "slayer",
+        "void"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "blitzcrank",
+      "name": "Blitzcrank",
+      "cost": 1,
+      "traits": [
+        "juggernaut",
+        "zaun"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "braum",
+      "name": "Braum",
+      "cost": 4,
+      "traits": [
+        "freljord",
+        "warden"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "briar",
+      "name": "Briar",
+      "cost": 1,
+      "traits": [
+        "juggernaut",
+        "noxus",
+        "slayer"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "brock",
+      "name": "Brock",
+      "cost": 7,
+      "traits": [
+        "ixtal"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "caitlyn",
+      "name": "Caitlyn",
+      "cost": 1,
+      "traits": [
+        "longshot",
+        "piltover"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "chogath",
+      "name": "Cho'Gath",
+      "cost": 2,
+      "traits": [
+        "juggernaut",
+        "void"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "darius",
+      "name": "Darius",
+      "cost": 3,
+      "traits": [
+        "defender",
+        "noxus"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "diana",
+      "name": "Diana",
+      "cost": 4,
+      "traits": [
+        "targon"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "draven",
+      "name": "Draven",
+      "cost": 3,
+      "traits": [
+        "noxus",
+        "quickstriker"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "drmundo",
+      "name": "Dr. Mundo",
+      "cost": 3,
+      "traits": [
+        "bruiser",
+        "zaun"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "ekko",
+      "name": "Ekko",
+      "cost": 2,
+      "traits": [
+        "disruptor",
+        "zaun"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "fiddlesticks",
+      "name": "Fiddlesticks",
+      "cost": 5,
+      "traits": [
+        "harvester",
+        "vanquisher"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "fizz",
+      "name": "Fizz",
+      "cost": 4,
+      "traits": [
+        "bilgewater",
+        "yordle"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "galio",
+      "name": "Galio",
+      "cost": 5,
+      "traits": [
+        "demacia",
+        "heroic"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "gangplank",
+      "name": "Gangplank",
+      "cost": 3,
+      "traits": [
+        "bilgewater",
+        "slayer",
+        "vanquisher"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "garen",
+      "name": "Garen",
+      "cost": 4,
+      "traits": [
+        "defender",
+        "demacia"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "graves",
+      "name": "Graves",
+      "cost": 2,
+      "traits": [
+        "bilgewater",
+        "gunslinger"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "gwen",
+      "name": "Gwen ",
+      "cost": 3,
+      "traits": [
+        "disruptor",
+        "shadow_isles"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "illaoi",
+      "name": "Illaoi",
+      "cost": 1,
+      "traits": [
+        "bilgewater",
+        "bruiser"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "jarvaniv",
+      "name": "Jarvan IV",
+      "cost": 1,
+      "traits": [
+        "defender",
+        "demacia"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "jhin",
+      "name": "Jhin",
+      "cost": 1,
+      "traits": [
+        "gunslinger",
+        "ionia"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "jinx",
+      "name": "Jinx",
+      "cost": 3,
+      "traits": [
+        "gunslinger",
+        "zaun"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "kaisa",
+      "name": "Kai'Sa ",
+      "cost": 4,
+      "traits": [
+        "assimilator",
+        "longshot",
+        "void"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "kalista",
+      "name": "Kalista ",
+      "cost": 4,
+      "traits": [
+        "shadow_isles",
+        "vanquisher"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "kennen",
+      "name": "Kennen ",
+      "cost": 3,
+      "traits": [
+        "defender",
+        "ionia",
+        "yordle"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "kindred",
+      "name": "Kindred",
+      "cost": 5,
+      "traits": [
+        "eternal",
+        "quickstriker"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "kobukoyuumi",
+      "name": "Kobuko & Yuumi",
+      "cost": 3,
+      "traits": [
+        "bruiser",
+        "invoker",
+        "yordle"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "kogmaw",
+      "name": "Kog'Maw",
+      "cost": 1,
+      "traits": [
+        "arcanist",
+        "longshot",
+        "void"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "leblanc",
+      "name": "LeBlanc ",
+      "cost": 3,
+      "traits": [
+        "invoker",
+        "noxus"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "leona",
+      "name": "Leona",
+      "cost": 3,
+      "traits": [
+        "targon"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "lissandra",
+      "name": "Lissandra",
+      "cost": 4,
+      "traits": [
+        "freljord",
+        "invoker"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "loris",
+      "name": "Loris",
+      "cost": 3,
+      "traits": [
+        "piltover",
+        "warden"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "luciansenna",
+      "name": "Lucian & Senna",
+      "cost": 5,
+      "traits": [
+        "gunslinger",
+        "soulbound"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "lulu",
+      "name": "Lulu",
+      "cost": 1,
+      "traits": [
+        "arcanist",
+        "yordle"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "lux",
+      "name": "Lux",
+      "cost": 4,
+      "traits": [
+        "arcanist",
+        "demacia"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "malzahar",
+      "name": "Malzahar",
+      "cost": 3,
+      "traits": [
+        "disruptor",
+        "void"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "mel",
+      "name": "Mel ",
+      "cost": 5,
+      "traits": [
+        "disruptor",
+        "noxus"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "milio",
+      "name": "Milio",
+      "cost": 3,
+      "traits": [
+        "invoker",
+        "ixtal"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "missfortune",
+      "name": "Miss Fortune",
+      "cost": 4,
+      "traits": [
+        "bilgewater",
+        "gunslinger"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "nasus",
+      "name": "Nasus ",
+      "cost": 4,
+      "traits": [
+        "shurima"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "nautilus",
+      "name": "Nautilus",
+      "cost": 3,
+      "traits": [
+        "bilgewater",
+        "juggernaut",
+        "warden"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "neeko",
+      "name": "Neeko",
+      "cost": 2,
+      "traits": [
+        "arcanist",
+        "defender",
+        "ixtal"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "nidalee",
+      "name": "Nidalee ",
+      "cost": 4,
+      "traits": [
+        "huntress",
+        "ixtal"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "orianna",
+      "name": " Orianna",
+      "cost": 2,
+      "traits": [
+        "invoker",
+        "piltover"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "ornn",
+      "name": "Ornn",
+      "cost": 5,
+      "traits": [
+        "blacksmith",
+        "warden"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "poppy",
+      "name": "Poppy ",
+      "cost": 2,
+      "traits": [
+        "demacia",
+        "juggernaut",
+        "yordle"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "qiyana",
+      "name": "Qiyana",
+      "cost": 1,
+      "traits": [
+        "ixtal",
+        "slayer"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "reksai",
+      "name": "Rek'Sai",
+      "cost": 2,
+      "traits": [
+        "vanquisher",
+        "void"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "renekton",
+      "name": "Renekton ",
+      "cost": 4,
+      "traits": [
+        "shurima"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "riftherald",
+      "name": "Rift Herald ",
+      "cost": 4,
+      "traits": [
+        "bruiser",
+        "void"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "rumble",
+      "name": "Rumble",
+      "cost": 1,
+      "traits": [
+        "defender",
+        "yordle"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "ryze",
+      "name": "Ryze ",
+      "cost": 7,
+      "traits": [
+        "rune_mage"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "sejuani",
+      "name": "Sejuani",
+      "cost": 3,
+      "traits": [
+        "defender",
+        "freljord"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "seraphine",
+      "name": "Seraphine",
+      "cost": 4,
+      "traits": [
+        "disruptor",
+        "piltover"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "sett",
+      "name": "Sett",
+      "cost": 5,
+      "traits": [
+        "ionia",
+        "the_boss"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "shen",
+      "name": "Shen",
+      "cost": 1,
+      "traits": [
+        "bruiser",
+        "ionia"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "shyvana",
+      "name": "Shyvana",
+      "cost": 5,
+      "traits": [
+        "dragonborn",
+        "juggernaut"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "singed",
+      "name": "Singed",
+      "cost": 4,
+      "traits": [
+        "juggernaut",
+        "zaun"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "sion",
+      "name": "Sion",
+      "cost": 2,
+      "traits": [
+        "bruiser",
+        "noxus"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "skarner",
+      "name": "Skarner ",
+      "cost": 4,
+      "traits": [
+        "ixtal"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "sona",
+      "name": "Sona",
+      "cost": 1,
+      "traits": [
+        "demacia",
+        "invoker"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "swain",
+      "name": "Swain",
+      "cost": 4,
+      "traits": [
+        "arcanist",
+        "juggernaut",
+        "noxus"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "sylas",
+      "name": "Sylas ",
+      "cost": 7,
+      "traits": [
+        "arcanist",
+        "chainbreaker",
+        "defender"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "tahmkench",
+      "name": "Tahm Kench",
+      "cost": 5,
+      "traits": [
+        "bilgewater",
+        "bruiser",
+        "glutton"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "taric",
+      "name": "Taric",
+      "cost": 4,
+      "traits": [
+        "targon"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "teemo",
+      "name": "Teemo",
+      "cost": 2,
+      "traits": [
+        "longshot",
+        "yordle"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "thex",
+      "name": "T-Hex",
+      "cost": 5,
+      "traits": [
+        "gunslinger",
+        "hexmech",
+        "piltover"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "thresh",
+      "name": "Thresh ",
+      "cost": 5,
+      "traits": [
+        "shadow_isles",
+        "warden"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "tibbers",
+      "name": "Tibbers",
+      "cost": 5,
+      "traits": [
+        "arcanist"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "tristana",
+      "name": "Tristana",
+      "cost": 2,
+      "traits": [
+        "gunslinger",
+        "yordle"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "tryndamere",
+      "name": "Tryndamere ",
+      "cost": 2,
+      "traits": [
+        "freljord",
+        "slayer"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "twistedfate",
+      "name": "Twisted Fate",
+      "cost": 2,
+      "traits": [
+        "bilgewater",
+        "quickstriker"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "vayne",
+      "name": "Vayne",
+      "cost": 3,
+      "traits": [
+        "demacia",
+        "longshot"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "veigar",
+      "name": "Veigar",
+      "cost": 4,
+      "traits": [
+        "arcanist",
+        "yordle"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "vi",
+      "name": "Vi",
+      "cost": 2,
+      "traits": [
+        "defender",
+        "piltover",
+        "zaun"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "viego",
+      "name": "Viego",
+      "cost": 1,
+      "traits": [
+        "quickstriker",
+        "shadow_isles"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "volibear",
+      "name": "Volibear ",
+      "cost": 5,
+      "traits": [
+        "bruiser",
+        "freljord"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "warwick",
+      "name": "Warwick",
+      "cost": 4,
+      "traits": [
+        "quickstriker",
+        "zaun"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "wukong",
+      "name": "Wukong",
+      "cost": 4,
+      "traits": [
+        "bruiser",
+        "ionia"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "xerath",
+      "name": "Xerath ",
+      "cost": 5,
+      "traits": [
+        "ascendant",
+        "shurima"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "xinzhao",
+      "name": "Xin Zhao",
+      "cost": 2,
+      "traits": [
+        "demacia",
+        "ionia",
+        "warden"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "yasuo",
+      "name": "Yasuo",
+      "cost": 2,
+      "traits": [
+        "ionia",
+        "slayer"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "yone",
+      "name": "Yone",
+      "cost": 4,
+      "traits": [
+        "ionia",
+        "slayer"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "yorick",
+      "name": "Yorick ",
+      "cost": 2,
+      "traits": [
+        "shadow_isles",
+        "warden"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "yunara",
+      "name": "Yunara",
+      "cost": 4,
+      "traits": [
+        "ionia",
+        "quickstriker"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "zaahen",
+      "name": "Zaahen",
+      "cost": 7,
+      "traits": [
+        "darkin",
+        "immortal"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "ziggs",
+      "name": "Ziggs ",
+      "cost": 5,
+      "traits": [
+        "longshot",
+        "yordle",
+        "zaun"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "zilean",
+      "name": "Zilean",
+      "cost": 5,
+      "traits": [
+        "chronokeeper",
+        "invoker"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    },
+    {
+      "id": "zoe",
+      "name": "Zoe",
+      "cost": 3,
+      "traits": [
+        "targon"
+      ],
+      "tags": {
+        "roles": [
+          "flex"
+        ],
+        "scaling": [],
+        "patterns": [],
+        "utility_sources": [],
+        "constraints": []
+      },
+      "preferred_item_tags": [],
+      "positioning": "mid",
+      "notes": {
+        "synergy": ""
+      }
+    }
+  ]
+}
