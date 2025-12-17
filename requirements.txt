@@ -1,7 +1,6 @@
-streamlit>=1.36
-jsonschema>=4.23
-rich>=13.7
-mss
-pillow
-numpy
-streamlit-drawable-canvas
+streamlit>=1.37.0
+openai>=1.40.0
+pydantic>=2.7.0
+mss>=9.0.1
+Pillow>=10.4.0
+numpy>=2.0.0
