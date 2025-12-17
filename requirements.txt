@@ -1,0 +1,7 @@
+streamlit>=1.36
+jsonschema>=4.23
+rich>=13.7
+mss
+pillow
+numpy
+streamlit-drawable-canvas
